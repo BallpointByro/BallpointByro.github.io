@@ -85,7 +85,6 @@ html {
     top: 0;
     z-index: 100;
     background: #1E1E2E;
-    backdrop-filter: blur(8px); /* Nice frosted-glass effect over scrolling content */
     border-bottom: 3px solid #2F2F3F;
     padding: 1rem 2rem;
 }
@@ -123,7 +122,6 @@ html {
     color: #000;
 }
 
-/* Optional subtle button styling for the last link */
 .nav .nav-cta {
     background: #111;
     color: #fff;
@@ -134,4 +132,9 @@ html {
 .nav .nav-cta:hover {
     background: #333;
     color: #fff;
+}
+
+.HHR {
+    background: #1E1E2E;
+    margin: 2%;
 }
