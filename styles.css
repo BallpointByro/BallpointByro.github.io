@@ -1,0 +1,71 @@
+* {
+    font-family: "Helvetica", sans-serif;
+    color: #434367;
+}
+
+body {
+    background-color: #2D2D45;
+    font-size: 30pt;
+}
+
+h1 {
+    margin: 2%;
+}
+
+p {
+    font-weight: 450;
+    margin: 2%;
+}
+
+p.thick {
+    font-weight: 900;
+}
+
+.github {
+    background-color: #1E1E2E;
+    margin: 2%;
+    width: auto;
+    padding: 2%;
+}
+
+.marquee-wrapper {
+  background-color: #1E1E2E;
+  overflow: hidden;
+  padding: 20px 0;
+  width: 100%;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 20px;
+  width: max-content;
+  animation: scroll-marquee 20s linear infinite;
+}
+
+.marquee-wrapper:hover .marquee-track {
+  animation-play-state: paused;
+}
+
+.marquee-track img {
+  width: 400px;
+  border-radius: 8px;
+  display: block;
+}
+
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-50% - 10px));
+  }
+}
+
+h3 {
+    margin: 2%;
+}
+
+.about-me {
+    background-color: #1E1E2E;
+    margin: 2%;
+}
